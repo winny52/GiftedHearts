@@ -25,7 +25,7 @@ const MissionVisionValues = () => {
             isHovered ? 'animate-wiggle' : 'animate-fadeUp delay-100'
           }`}
         >
-          <h2 className="text-4xl text-center font-bold text-blue-700 mb-6">🌟 Our Mission</h2>
+          <h2 className="text-4xl text-center font-bold text-blue-700 mb-6"> Our Mission</h2>
           <p className="text-gray-700 text-center text-lg leading-relaxed">
             Our mission is to be a guiding light for communities in need, 
             spreading love, compassion, and hope where it is most needed.  
@@ -42,7 +42,7 @@ const MissionVisionValues = () => {
             isHovered ? 'animate-wiggle' : 'animate-fadeUp delay-200'
           }`}
         >
-          <h2 className="text-4xl text-center font-bold text-pink-700 mb-6">🌈 Our Vision</h2>
+          <h2 className="text-4xl text-center font-bold text-pink-700 mb-6"> Our Vision</h2>
           <p className="text-gray-700 text-center text-lg leading-relaxed">
             We envision a world where love and hope flow freely, crossing borders, cultures, and generations.  
             Our dream is to create communities where every individual feels seen, valued, and supported.  
@@ -58,7 +58,7 @@ const MissionVisionValues = () => {
             isHovered ? 'animate-wiggle' : 'animate-fadeUp delay-300'
           }`}
         >
-          <h2 className="text-4xl font-bold text-center text-blue-700 mb-6">💎 Core Values</h2>
+          <h2 className="text-4xl font-bold text-center text-blue-700 mb-6"> Our Core Values</h2>
           <ul className="list-disc pl-8 space-y-6 text-gray-700 text-lg leading-relaxed">
             <li>
               <strong>Compassion</strong> – We lead with empathy, always seeking to understand the struggles of others before taking action.
