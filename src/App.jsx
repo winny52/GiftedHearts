@@ -11,7 +11,7 @@ import ContactUs from './components/ContactUs';
 import Navbar from './components/Navbar';
 import OurStory from './components/OurStory';
 import Footer from './components/Footer';
-
+import ScrollToTop from './components/SCrollToTop';
 const App = () => {
   return (
     <Router>
@@ -20,6 +20,7 @@ const App = () => {
 
       {/* Main content is wrapped in Routes */}
       <div className="content">
+        <ScrollToTop/>
         <Routes>
           {/* Home Page Route */}
           <Route path="/" element={<HomePage />} />

@@ -11,7 +11,8 @@ import image2023 from '../assets/2022-image.jpg';
 import image2024 from '../assets/2022-image.jpg'; // Add image for 2024 if available
 
 const OurStory = () => (
-  <section className="bg--gradient-to-r from-lightBlue-100 via-pink-100 to-white py-16 px-4 md:px-8">
+  <div className="bg-gradient-to-r from-blue-100 via-pink-100 to-white">
+  <section className="bg-gradient-to-r from-lightBlue-100 via-pink-100 to-white py-16 px-4 md:px-8">
     <div className="max-w-full mx-auto">
       {/* Title */}
       <h2 className="text-4xl md:text-5xl font-semibold text-center text-pink-600 mb-8">
@@ -25,8 +26,8 @@ const OurStory = () => (
           <img
             src={ghlogo}
             alt="Gifted Hearts Kenya Foundation"
-            className="w-full h-auto rounded-lg shadow-lg object-cover"
-          />
+            className="w-full h-full object-cover"
+            />
         </div>
 
         {/* Text Content */}
@@ -46,14 +47,16 @@ const OurStory = () => (
         <h3 className="text-3xl md:text-4xl font-semibold text-pink-600 mb-6">Our Journey Through Time:</h3>
         <ul className="space-y-12 text-gray-800">
           <li className="flex flex-col md:flex-row items-center md:space-x-6 space-y-4 md:space-y-0">
-            {/* Image for 2018 */}
-            <div className="md:w-1/3 transition-transform transform hover:scale-105">
-              <img
-                src={image2018}
-                alt="2018 Image"
-                className="w-full h-auto rounded-lg shadow-lg object-cover"
-              />
-            </div>
+           {/* Image for 2018 */}
+<div className="md:w-1/3 transition-transform transform hover:scale-105 flex justify-center items-center">
+  <div className="relative w-108 h-96 rounded-full overflow-hidden shadow-lg bg-gray-200">
+    <img
+      src={image2018}
+      alt="2018 Image"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
 
             {/* Text Content for 2018 */}
             <div className="md:w-2/3 space-y-6 text-lg md:text-xl transition-transform transform hover:scale-105">
@@ -69,12 +72,12 @@ const OurStory = () => (
 
           <li className="flex flex-col md:flex-row-reverse items-center md:space-x-6 space-y-4 md:space-y-0">
             {/* Image for 2019 */}
-            <div className="md:w-1/3 transition-transform transform hover:scale-105">
+            <div className="relative w-108 h-96 rounded-full overflow-hidden shadow-lg bg-gray-200">
               <img
                 src={image2019}
                 alt="2019 Image"
-                className="w-full h-auto rounded-lg shadow-lg object-cover"
-              />
+                className="w-full h-full object-cover"
+                />
             </div>
 
             {/* Text Content for 2019 */}
@@ -91,11 +94,11 @@ const OurStory = () => (
 
           <li className="flex flex-col md:flex-row items-center md:space-x-6 space-y-4 md:space-y-0">
             {/* Image for 2020 */}
-            <div className="md:w-1/3 transition-transform transform hover:scale-105">
+            <div className="relative w-108 h-96 rounded-full overflow-hidden shadow-lg bg-gray-200">
               <img
                 src={image2020}
                 alt="2020 Image"
-                className="w-full h-auto rounded-lg shadow-lg object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -113,11 +116,11 @@ const OurStory = () => (
 
           <li className="flex flex-col md:flex-row-reverse items-center md:space-x-6 space-y-4 md:space-y-0">
             {/* Image for 2021 */}
-            <div className="md:w-1/3 transition-transform transform hover:scale-105">
+            <div className="relative w-108 h-96 rounded-full overflow-hidden shadow-lg bg-gray-200">
               <img
                 src={image2021}
                 alt="2021 Image"
-                className="w-full h-auto rounded-lg shadow-lg object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -135,11 +138,11 @@ const OurStory = () => (
 
           <li className="flex flex-col md:flex-row items-center md:space-x-6 space-y-4 md:space-y-0">
             {/* Image for 2022 */}
-            <div className="md:w-1/3 transition-transform transform hover:scale-105">
+            <div className="relative w-108 h-96 rounded-full overflow-hidden shadow-lg bg-gray-200">
               <img
                 src={image2022}
                 alt="2022 Image"
-                className="w-full h-auto rounded-lg shadow-lg object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -157,11 +160,11 @@ const OurStory = () => (
 
           <li className="flex flex-col md:flex-row-reverse items-center md:space-x-6 space-y-4 md:space-y-0">
             {/* Image for 2023 */}
-            <div className="md:w-1/3 transition-transform transform hover:scale-105">
+            <div className="relative w-108 h-96 rounded-full overflow-hidden shadow-lg bg-gray-200">
               <img
                 src={image2023}
                 alt="2023 Image"
-                className="w-full h-auto rounded-lg shadow-lg object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -180,11 +183,11 @@ const OurStory = () => (
           {/* Added 2024 Section */}
           <li className="flex flex-col md:flex-row items-center md:space-x-6 space-y-4 md:space-y-0">
             {/* Image for 2024 */}
-            <div className="md:w-1/3 transition-transform transform hover:scale-105">
+            <div className="relative w-108 h-96 rounded-full overflow-hidden shadow-lg bg-gray-200">
               <img
                 src={image2024}
                 alt="2024 Image"
-                className="w-full h-auto rounded-lg shadow-lg object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -203,6 +206,7 @@ const OurStory = () => (
       </div>
     </div>
   </section>
+  </div>
 );
 
 export default OurStory;

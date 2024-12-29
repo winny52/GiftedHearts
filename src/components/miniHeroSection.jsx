@@ -1,6 +1,6 @@
 import React from 'react';
 import heroImageLeft from '../assets/pinkheart.jpg'; // Import your left image
-import heroImageRight from '../assets/blueheart.jpg'; // Import your right image
+import heroImageRight from '../assets/blueheart.png'; // Import your right image
 
 const MiniHeroSection = () => {
   return (

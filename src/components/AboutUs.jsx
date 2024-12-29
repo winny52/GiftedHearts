@@ -76,23 +76,17 @@ const AboutUs = () => {
             }`}
           >
             <h2 className="text-4xl font-bold text-center text-blue-700 mb-6"> Our Core Values</h2>
-            <ul className="list-disc pl-8 space-y-6 text-gray-700 text-lg leading-relaxed">
-              <li>
+            <div className="text-3xl text-center items-center  ">
                 <strong>Compassion</strong> – We lead with empathy, always seeking to understand the struggles of others before taking action.
-              </li>
-              <li>
+             
                 <strong>Integrity</strong> – Honesty and transparency form the backbone of every action we take, earning the trust of those we serve.
-              </li>
-              <li>
+             
                 <strong>Faith</strong> – Our work is deeply rooted in the belief that faith moves mountains, and with faith, we can achieve the impossible.
-              </li>
-              <li>
+             
                 <strong>Service</strong> – We put service above self, going beyond the call of duty to uplift communities and change lives for the better.
-              </li>
-              <li>
+              
                 <strong>Community</strong> – We believe in the power of connection and unity, knowing that together, we are stronger than we are alone.
-              </li>
-            </ul>
+             </div>
           </section>
         </div>
       </div>

@@ -23,7 +23,7 @@ const GetInvolved = () => {
               href="https://www.paypal.com/donate?hosted_button_id=XXXX" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="mt-4 inline-block bg-blue-500 text-white py-3 px-6 rounded-md hover:bg-blue-600 transition-colors"
+              className="mt-4 inline-block bg-blue-500 text-white py-3 px-6 rounded-md transition-colors"
             >
               Donate Now
             </a>
