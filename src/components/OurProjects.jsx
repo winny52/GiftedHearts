@@ -5,9 +5,28 @@ const OurProjects = () => {
   const navigate = useNavigate();
 
   const handleCardClick = () => {
-    navigate('/all-projects');
+    navigate('/projects');
   };
 
+ const handleHomeClick = () => {
+    navigate('/homeconstruction');
+  };
+  const handlegospelCardClick = () => {
+    navigate('/spreadingthegospel');
+  };
+  const handlecovidCardClick = () => {
+    navigate('/covidreliefefforts');
+  };
+  const handlementalCardClick = () => {
+    navigate('/mentalhealthcampaigns');
+  };
+  const handleeducationCardClick = () => {
+    navigate('/educationsponsorship');
+  };
+  const handleOrphanageCardClick = () => {
+    navigate('/orphanagevisits');
+  };
+  
   return (
     <div className="bg-white">
     <div className="bg-from-pink-100 via-blue-100 to-pink-100 py-16 px-6 lg:px-20">
@@ -30,7 +49,7 @@ const OurProjects = () => {
             By nurturing their well-being, we aim to offer these children hope, emotional support, and confidence to face life's challenges.
           </p>
           <button 
-            onClick={handleCardClick} 
+            onClick={handleOrphanageCardClick} 
             className="text-sm bg-pink-100 font-semibold text-pink-700 hover:underline"
           >
             Learn More →
@@ -45,7 +64,7 @@ const OurProjects = () => {
             Each home represents a fresh start, offering stability, dignity, and a renewed sense of hope for widows and their families.
           </p>
           <button 
-            onClick={handleCardClick} 
+            onClick={handleHomeClick} 
             className="text-sm bg-pink-100 font-semibold text-pink-700 hover:underline"
           >
             Learn More →
@@ -61,7 +80,7 @@ const OurProjects = () => {
             Beneficiaries receive school fees, learning materials, and mentorship throughout their academic journey.
           </p>
           <button 
-            onClick={handleCardClick} 
+            onClick={handleeducationCardClick} 
             className="text-sm bg-pink-100 font-semibold text-pink-700 hover:underline"
           >
             Learn More →
@@ -76,7 +95,7 @@ const OurProjects = () => {
             Through community dialogues and partnerships, we strive to make mental health support accessible and inclusive for all.
           </p>
           <button 
-            onClick={handleCardClick} 
+            onClick={handlementalCardClick} 
             className="text-sm bg-pink-100 font-semibold text-pink-700 hover:underline"
           >
             Learn More →
@@ -91,7 +110,7 @@ const OurProjects = () => {
             Our efforts focused on promoting health, safety, and resilience for those most affected by the pandemic's economic and social impact.
           </p>
           <button 
-            onClick={handleCardClick} 
+            onClick={handlecovidCardClick} 
             className="text-sm  bg-pink-100 font-semibold text-pink-700 hover:underline"
           >
             Learn More →
@@ -106,7 +125,7 @@ const OurProjects = () => {
             Through outreach, prayer sessions, and community service, we seek to bring light, hope, and transformation to lives through the power of faith.
           </p>
           <button 
-            onClick={handleCardClick} 
+            onClick={handlegospelCardClick} 
             className="text-sm bg-pink-100 font-semibold text-pink-700 hover:underline"
           >
             Learn More →

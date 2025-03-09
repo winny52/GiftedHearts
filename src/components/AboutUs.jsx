@@ -75,8 +75,8 @@ const AboutUs = () => {
               isHovered ? 'animate-wiggle' : 'animate-fadeUp delay-300'
             }`}
           >
-            <h2 className="text-4xl font-bold text-center text-blue-700 mb-6"> Our Core Values</h2>
-            <div className="text-3xl text-center items-center  ">
+            <h2 className="text-3xl font-bold text-center text-blue-700 mb-6"> Our Core Values</h2>
+            <div className="text-l text-center items-center  ">
                 <strong>Compassion</strong> – We lead with empathy, always seeking to understand the struggles of others before taking action.
              
                 <strong>Integrity</strong> – Honesty and transparency form the backbone of every action we take, earning the trust of those we serve.

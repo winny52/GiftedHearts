@@ -12,6 +12,12 @@ import Navbar from './components/Navbar';
 import OurStory from './components/OurStory';
 import Footer from './components/Footer';
 import ScrollToTop from './components/SCrollToTop';
+import OrphanageVisits from './components/orphanage';
+import HomeConstruction from './components/homeconstruction';
+import MentalHealthCampaigns from './components/mentalheath';
+import SpreadingTheGospel from './components/gospel';
+import EducationSponsorship from './components/edusponsors';
+import CovidReliefEfforts from './components/covid';
 const App = () => {
   return (
     <Router>
@@ -40,8 +46,15 @@ const App = () => {
           
           {/* Contact Us Page Route */}
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/orphanagevisits" element={<OrphanageVisits />} />
+          <Route path="/homeconstruction" element={<HomeConstruction />} />
+          <Route path="/mentalhealthcampaigns" element={<MentalHealthCampaigns />} />
+          <Route path="/spreadingthegospel" element={<SpreadingTheGospel />} />
+          <Route path="/educationsponsorship" element={<EducationSponsorship />} />
+          <Route path="/covidreliefefforts" element={<CovidReliefEfforts />} />
 
-          
+          <Route path="/orphanagevisits" element={<OrphanageVisits />} />
+
         </Routes>
       </div>
       <Footer/>
