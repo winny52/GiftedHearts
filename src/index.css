@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
+/* @custom-variant dark (&:where(.dark, .dark *)); */
 
 @theme {
   /* Typography */
-  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-display: "Poppins", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
 
   /* Primary — Trust (Blue) */
@@ -32,7 +32,7 @@
   --color-secondary-900: #78350f;
 
   /* Accent — Compassion (Rose) */
-  --color-accent-50: #fff1f2;
+  /* --color-accent-50: #fff1f2;
   --color-accent-100: #ffe4e6;
   --color-accent-200: #fecdd3;
   --color-accent-300: #fda4af;
@@ -41,8 +41,18 @@
   --color-accent-600: #e11d48;
   --color-accent-700: #be123c;
   --color-accent-800: #9f1239;
-  --color-accent-900: #881337;
-
+  --color-accent-900: #881337; */
+  /* Accent — Compassion (Rose) */
+  --color-accent-50: #fff7fb;
+  --color-accent-100: #fdecf5;
+  --color-accent-200: #fad4e8;
+  --color-accent-300: #f7b6d2;
+  --color-accent-400: #f49ac2;
+  --color-accent-500: #f28bb5;
+  --color-accent-600: #e879a7;
+  --color-accent-700: #d95f91;
+  --color-accent-800: #c44a7d;
+  --color-accent-900: #a83a68;
   /* Neutrals — Warm Stone */
   --color-surface: #fafaf9;
   --color-surface-alt: #f5f5f4;

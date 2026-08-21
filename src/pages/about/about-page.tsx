@@ -17,12 +17,12 @@ export function Component() {
   return (
     <>
       {/* Hero banner */}
-      <section className="from-primary-900 to-primary-700 bg-gradient-to-br py-20">
+      <section className="bg-surface py-10">
         <Container>
-          <h1 className="font-display text-center text-4xl font-extrabold tracking-tight text-white md:text-5xl">
+          <h1 className="font-display text-text-heading text-center text-4xl font-extrabold tracking-tight md:text-5xl">
             About Us
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-white/80">
+          <p className="text-text-muted mx-auto mt-4 max-w-2xl text-center text-lg">
             Touching the Untouched with Love, Spreading Hope
           </p>
         </Container>
@@ -53,7 +53,7 @@ export function Component() {
         <Container>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-5">
             {GALLERY_IMAGES.map((img, i) => (
-              <div key={i} className="aspect-square overflow-hidden rounded-[var(--radius-card)]">
+              <div key={i} className="aspect-square overflow-hidden">
                 <img
                   src={img}
                   alt={`Foundation activity ${i + 1}`}

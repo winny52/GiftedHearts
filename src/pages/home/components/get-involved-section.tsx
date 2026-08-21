@@ -38,17 +38,17 @@ const INVOLVEMENT_OPTIONS = [
  */
 export function GetInvolvedSection() {
   return (
-    <section className="from-primary-900 via-primary-800 to-accent-900 bg-linear-to-br py-20">
+    <section className="from-accent-200 to-primary-900 bg-linear-to-br via-white py-20">
       <Container>
         <Reveal className="mb-12 text-center">
-          <h2 className="font-display text-3xl font-bold tracking-tight text-white md:text-4xl">
+          <h2 className="font-display text-shadow-primary-900 text-3xl font-bold tracking-tight md:text-4xl">
             Get Involved
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-white/80">
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-black/80">
             There are many ways you can make a difference. Choose how you'd like to support our
             mission.
           </p>
-          <div className="bg-secondary-400 mx-auto mt-4 h-1 w-16 rounded-full" />
+          <div className="bg-accent-800 mx-auto mt-4 h-1 w-16 rounded-full" />
         </Reveal>
 
         <StaggerReveal className="grid grid-cols-1 gap-8 md:grid-cols-3">

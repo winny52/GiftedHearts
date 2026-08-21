@@ -24,7 +24,7 @@ function TimelineItem({ entry, index }: { entry: TimelineEntry; index: number })
           <img
             src={entry.image}
             alt={`${entry.year} — ${entry.title}`}
-            className="aspect-[4/3] w-full object-cover transition-transform duration-500 hover:scale-105"
+            className="] w-full object-cover transition-transform duration-500 hover:scale-105"
           />
         </div>
       </div>
@@ -49,13 +49,13 @@ export function Component() {
   return (
     <>
       {/* Hero banner */}
-      <section className="from-primary-900 to-primary-700 bg-linear-to-br py-20">
+      <section className="bg-surface py-20">
         <Container>
-          <h1 className="font-display text-center text-4xl font-extrabold tracking-tight text-white md:text-5xl">
+          <h1 className="font-display text-text-heading text-center text-4xl font-extrabold tracking-tight md:text-5xl">
             Our Story
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-white/80">
-            A journey of love, faith, and service since 2018
+          <p className="text-text-muted mx-auto mt-4 max-w-2xl text-center text-lg">
+            A journey of love, faith, and service .
           </p>
         </Container>
       </section>

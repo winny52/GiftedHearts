@@ -16,7 +16,7 @@ export function ThemeToggle({ className }: { className?: string }) {
       aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
       title={isDark ? "Switch to light mode" : "Switch to dark mode"}
       className={cn(
-        "cursor-pointer rounded-(--radius-button) p-2 text-white/80 transition-all duration-300 hover:bg-white/10 hover:text-white",
+        "cursor-pointer rounded-(--radius-button) p-2 text-black/80 transition-all duration-300 hover:bg-white/10 hover:text-white",
         className,
       )}
     >

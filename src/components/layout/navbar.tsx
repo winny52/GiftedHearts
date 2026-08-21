@@ -16,7 +16,7 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="bg-primary-900 sticky top-0 z-40 shadow-[var(--shadow-nav)]">
+      <nav className="bg-accent-300 ] sticky top-0 z-40">
         <Container>
           <div className="flex h-16 items-center justify-between md:h-20">
             <Logo />
@@ -30,10 +30,8 @@ export function Navbar() {
                   end={link.to === "/"}
                   className={({ isActive }) =>
                     [
-                      "rounded-[var(--radius-button)] px-4 py-2 text-sm font-medium transition-all duration-300",
-                      isActive
-                        ? "text-secondary-400 bg-white/15"
-                        : "text-white/80 hover:bg-white/10 hover:text-white",
+                      "px-4 py-2 text-sm font-medium transition-all duration-300",
+                      isActive ? "bg-white/15 text-black" : "text-black",
                     ].join(" ")
                   }
                 >
@@ -47,7 +45,7 @@ export function Navbar() {
 
               {/* Mobile menu toggle */}
               <button
-                className="hover:text-secondary-400 cursor-pointer text-white transition-colors lg:hidden"
+                className="hover:text-primary-400 cursor-pointer text-black transition-colors lg:hidden"
                 onClick={() => setIsMobileMenuOpen(true)}
                 aria-label="Open menu"
               >

@@ -42,7 +42,7 @@ export function ProjectsPreviewSection() {
                       {project.title}
                     </h3>
                     <p className="text-text-muted text-sm leading-relaxed">{project.description}</p>
-                    <span className="text-primary-600 mt-4 inline-flex items-center gap-1 text-sm font-medium transition-all group-hover:gap-2">
+                    <span className="text-primary-400 mt-4 inline-flex items-center gap-1 text-sm font-medium transition-all group-hover:gap-2">
                       Learn more <IconArrowRight size={16} />
                     </span>
                   </div>

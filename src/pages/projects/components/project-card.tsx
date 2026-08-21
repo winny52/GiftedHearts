@@ -23,11 +23,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
           />
         </div>
         <div className="p-6">
-          <h3 className="font-display text-text-heading group-hover:text-primary-600 mb-2 text-lg font-bold transition-colors">
+          <h3 className="font-display text-text-heading mb-2 text-lg font-bold transition-colors text-shadow-black">
             {project.title}
           </h3>
           <p className="text-text-muted text-sm leading-relaxed">{project.description}</p>
-          <span className="text-primary-600 mt-4 inline-flex items-center gap-1 text-sm font-medium transition-all group-hover:gap-2">
+          <span className="text-primary-500 mt-4 inline-flex items-center gap-1 text-sm font-medium transition-all group-hover:gap-2">
             Learn more <IconArrowRight size={16} />
           </span>
         </div>

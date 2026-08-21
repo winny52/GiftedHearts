@@ -18,12 +18,12 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary-900 text-white/80">
+    <footer className="bg-accent-300 text-black">
       <Container className="py-16">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
           {/* Brand & mission */}
           <div>
-            <h3 className="font-display mb-4 text-xl font-bold text-white">{SITE_NAME}</h3>
+            <h3 className="font-display mb-4 text-xl font-bold text-black">{SITE_NAME}</h3>
             <p className="text-sm leading-relaxed">
               Touching the Untouched with Love, Spreading Hope. We are a faith-based organization
               dedicated to serving vulnerable communities across Kenya.
@@ -32,14 +32,11 @@ export function Footer() {
 
           {/* Quick links */}
           <div>
-            <h4 className="mb-4 font-semibold text-white">Quick Links</h4>
+            <h4 className="mb-4 font-semibold text-black">Quick Links</h4>
             <ul className="space-y-2">
               {NAV_LINKS.map((link) => (
                 <li key={link.to}>
-                  <Link
-                    to={link.to}
-                    className="hover:text-secondary-400 text-sm transition-colors duration-300"
-                  >
+                  <Link to={link.to} className="text-sm transition-colors duration-300">
                     {link.label}
                   </Link>
                 </li>
@@ -49,23 +46,17 @@ export function Footer() {
 
           {/* Contact & socials */}
           <div>
-            <h4 className="mb-4 font-semibold text-white">Get In Touch</h4>
+            <h4 className="mb-4 font-semibold text-black">Get In Touch</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <IconMail size={16} />
-                <a
-                  href={`mailto:${CONTACT_EMAIL}`}
-                  className="hover:text-secondary-400 transition-colors"
-                >
+                <a href={`mailto:${CONTACT_EMAIL}`} className="transition-colors">
                   {CONTACT_EMAIL}
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <IconPhone size={16} />
-                <a
-                  href={`tel:${CONTACT_PHONE.replace(/\s/g, "")}`}
-                  className="hover:text-secondary-400 transition-colors"
-                >
+                <a href={`tel:${CONTACT_PHONE.replace(/\s/g, "")}`} className="transition-colors">
                   {CONTACT_PHONE}
                 </a>
               </li>
@@ -87,7 +78,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
-                className="hover:text-secondary-400 transition-colors"
+                className="transition-colors"
               >
                 <IconBrandTiktok size={22} />
               </a>
@@ -96,7 +87,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
-                className="hover:text-secondary-400 transition-colors"
+                className="transition-colors"
               >
                 <IconBrandFacebook size={22} />
               </a>
@@ -105,7 +96,7 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/50">
+        <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-black">
           &copy; {currentYear} {SITE_NAME}. All rights reserved.
         </div>
       </Container>

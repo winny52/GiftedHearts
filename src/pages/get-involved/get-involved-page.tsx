@@ -28,12 +28,12 @@ export function Component() {
   return (
     <>
       {/* Hero banner */}
-      <section className="from-primary-900 to-accent-800 bg-linear-to-br py-20">
+      <section className="bg-surface py-20">
         <Container>
-          <h1 className="font-display text-center text-4xl font-extrabold tracking-tight text-white md:text-5xl">
+          <h1 className="font-display text-text-heading text-center text-4xl font-extrabold tracking-tight md:text-5xl">
             Get Involved
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-white/80">
+          <p className="text-text-muted mx-auto mt-4 max-w-2xl text-center text-lg">
             Your support makes a world of difference
           </p>
         </Container>
@@ -46,18 +46,25 @@ export function Component() {
             <div className="lg:col-span-2">
               <Card
                 hoverable={false}
-                className="from-accent-50 bg-linear-to-br to-white p-8 dark:bg-zinc-800/50 dark:bg-none"
+                className="from-accent-50 bg-linear-to-br to-white p-8 dark:from-zinc-900 dark:to-zinc-800"
               >
-                <SectionHeading title="Support Our Mission" align="left" />
+                <SectionHeading
+                  title="Support Our Mission"
+                  align="left"
+                  className="text-text-heading dark:text-white"
+                />
+
                 <p className="text-text-muted mb-6 leading-relaxed">
                   Your donations help us provide essential resources, education, and care to
                   vulnerable communities across Kenya. Every contribution, no matter the size,
                   creates a ripple of positive change.
                 </p>
+
                 <div className="space-y-4">
                   <Button variant="accent" className="w-full">
                     Donate Now
                   </Button>
+
                   <Button variant="outline" className="w-full" to="/contact">
                     Contact Us to Give
                   </Button>

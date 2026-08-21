@@ -10,12 +10,12 @@ export function Component() {
   return (
     <>
       {/* Hero banner */}
-      <section className="from-primary-900 to-primary-700 bg-linear-to-br py-20">
+      <section className="bg-surface py-20">
         <Container>
-          <h1 className="font-display text-center text-4xl font-extrabold tracking-tight text-white md:text-5xl">
+          <h1 className="font-display text-text-heading text-center text-4xl font-extrabold tracking-tight md:text-5xl">
             Our Projects
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-white/80">
+          <p className="text-text-muted mx-auto mt-4 max-w-2xl text-center text-lg">
             Making a lasting impact through compassionate action
           </p>
         </Container>
